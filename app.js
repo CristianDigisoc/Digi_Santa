@@ -13,7 +13,7 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html')
 });
 app.get('/agents', function(req, res) {
-    res.sendFile(__dirname + '/index-agents.html')
+    res.sendFile(__dirname + '/index.html')
 });
 
 const server = http.createServer(app);
