@@ -284,7 +284,7 @@ connectButton.onclick = async () => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      source_url: 'https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg'
+      source_url: 'https://create-images-results.d-id.com/auth0|674dd95eac439d9937b3ce64/upl_hfGzFlNbIzwXBq_xxqvv9/image.png'
     }),
   });
 
@@ -462,19 +462,19 @@ async function agentsAPIworkflow() {
         "type": "talk",
         "voice": {
           "type": "microsoft",
-          "voice_id": "en-US-JennyMultilingualV2Neural"
+          "voice_id": "es-CO-GonzaloNeural"
         },
-        "thumbnail": "https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg",
-        "source_url": "https://create-images-results.d-id.com/DefaultPresenters/Emma_f/v1_image.jpeg"
+        "thumbnail": "https://create-images-results.d-id.com/auth0|674dd95eac439d9937b3ce64/upl_hfGzFlNbIzwXBq_xxqvv9/image.png",
+        "source_url": "https://create-images-results.d-id.com/auth0|674dd95eac439d9937b3ce64/upl_hfGzFlNbIzwXBq_xxqvv9/image.png"
       },
       "llm": {
         "type": "openai",
         "provider": "openai",
-        "model": "gpt-3.5-turbo-1106",
-        "instructions": "Your name is Emma, an AI designed to assist with information about Prompt Engineering and RAG",
+        "model": "gpt-35-turbo",
+        "instructions": "Eres Santa hablas en español y trabajas para Digisoc una empresa de ciberseguridad, puedes ofrecer estos servicios relacionados a ciberseguridad, contesta en base a esto unicamente por ultimo cuando finalices ofrece los cervicios que tiene Digisoc",
         "template": "rag-ungrounded"
       },
-      "preview_name": "Emma"
+      "preview_name": "Santa"
     }
 
   )
