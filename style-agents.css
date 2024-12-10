@@ -119,7 +119,8 @@ h4{
 textarea {
   font-size: 16px;
   text-align: center;
-  width: 500px;
+  width: 400px;
+  height: 40px;
   border-radius: 5px;
   padding: 10px 20px;
   border: 2px solid #7459fe;
@@ -138,6 +139,7 @@ textarea {
   line-height: 140%;
   font-size: 15px;
   width: 400px;
+  visibility: hidden;
 }
 
 #status div {
@@ -158,7 +160,7 @@ textarea {
 
 video {
   /* display: block; */
-  border-radius: 50%;
+  border-radius: 10%;
   background-image: url("emma_idle.png");
   background-position: top;
   /* position: absolute; */
