@@ -126,7 +126,7 @@ textarea {
   border: 2px solid #7459fe;
   font-size: 16px;
   margin: 0 5px;
-  color: #fefefe;
+  background: transparent; 
 }
 
 #msgHistory {
